@@ -13,5 +13,5 @@
 
 	<header> 
 		<?php get_template_part( 'template-parts/logotext', 'logotext' ); ?>
-		<?php get_template_part( 'template-parts/header/menu', 'menu' ); ?>
+		<?php get_template_part( 'template-parts/menu', 'menu' ); ?>
 	</header>

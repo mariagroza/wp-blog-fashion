@@ -11,43 +11,43 @@ Theme URI: -
 */
 
 * {
-position: relative;
-width: 1920px;
-height: 4604px;
-background: #FFFFFF;
-}
-
-header {
-    margin: 35px 80px;
-}
-
-#logotext {
-	width: 128px;
-	height: 50px;
-	top: 
-	left: 4px;
-}
-
-footer {
-
-}
-
-footer ul {
-
-}
-
-footer ul li{
-
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Noto Serif';
+    background-color: #FFFFFF;
 }
 
 /* Header */
 
 header {
-
+    height: 30px;
+    margin: 35px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
+#logotext {
+    position: relative;
+    cursor: context-menu;
+    font-size: 25px;
+    line-height: 33px;
+    letter-spacing: 2.5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  float: left;
+  display:inline; 
+  text-decoration: none;
+}
 /* Footer */
 
 footer {
-
+align-items: center;
 }
