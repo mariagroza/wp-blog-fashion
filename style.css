@@ -1,0 +1,53 @@
+/* 
+Theme Name: Blog-fashion-Maria 
+Text Domain: Blog-fashion-Maria
+Version: 1.5 
+Requires at least: 4.7 
+Requires PHP: 5.2.4 
+Description: Fancy theme
+Author: Maria Groza 
+Author URI: https://github.com/mariagroza 
+Theme URI: - 
+*/
+
+* {
+position: relative;
+width: 1920px;
+height: 4604px;
+background: #FFFFFF;
+}
+
+header {
+    margin: 35px 80px;
+}
+
+#logotext {
+	width: 128px;
+	height: 50px;
+	top: 
+	left: 4px;
+}
+
+footer {
+
+}
+
+footer ul {
+
+}
+
+footer ul li{
+
+}
+
+/* Header */
+
+header {
+
+}
+
+/* Footer */
+
+footer {
+
+}
