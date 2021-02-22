@@ -1,20 +1,21 @@
-<?php get_header(); 
-?>
+<?php get_header(); ?>
 
-<!-- hero -->
+<?php get_template_part('template-parts/posts/xl') ?>
 
-<div class="main-page">
+<main class="home">
 
-	<div class="content-container">
-		<!-- post 1 -->
-		<!-- post 2 -->
-		<!-- post 3 -->
-		<!-- sidebar -->
-		<!-- pagination -->
+	<div class="home-posts-container">
+		<?php get_template_part('template-parts/posts/l-m') ?>
 	</div>
-		
-</div>
+	<div class="sidebar">
+		<?php get_template_part('template-parts/posts/xs') ?>
+		<?php get_template_part('template-parts/sidebar/categories') ?>
+		<?php get_template_part('template-parts/sidebar/social-media-sidebar') ?>
+		<?php get_template_part('template-parts/sidebar/tags') ?>
+	</div>
 
+</main>
+<?php get_template_part('template-parts/posts/s') ?>
+</main>
 
-<?php get_footer();
-?>
+<?php get_footer(); ?>
